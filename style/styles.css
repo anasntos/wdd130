@@ -13,7 +13,9 @@ h1 {
     color: darkblue;
 }
 
-main {max-width:840px;}
+main {
+    max-width: 840px;
+}
 
 aside {
     width:20rem;
