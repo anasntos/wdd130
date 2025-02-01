@@ -4,9 +4,6 @@
     --secondary-color: #ECE8EF;
     --text-color: #0d1321;
     --background-color: #8783d1;
-
-    /*mudar a cor das letras, trocar a imagem depois da logo
-    adicionar outras imagens*/
     --heading-font: 'Lato', sans-serif;
     --text-font: 'Montserrat', sans-serif;
 }
@@ -52,8 +49,9 @@
   
   /* Hero Section */
   .hero {
+    display: flex;
     position: relative;
-    text-align: center;
+    text-align: flex-start;
     color: var(--accent1-color);
   }
   
