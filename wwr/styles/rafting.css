@@ -161,7 +161,172 @@ section-ad images-ad{
   justify-content: space-around;
   align-items: center;
 }
+/*company section*/
+.company{
+  display:flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid var(--accent1-color);  
+  border-radius: 10px;       
+  background-color: var(--secondary-color); 
+  width: 90%;                
+  max-width: 1200px;         
+  margin: 0 auto;            
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
 
+.company h1{
+  font-family: var(--text-font);
+  font-weight: 600;
+  color: var(--accent2-color);
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.company p{
+  font-family: var(--text-font);
+  font-weight: 300;
+  color: var(--accent1-color);
+  background-color: var(--secondary-color);
+  padding:10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.company .text-content{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.company .map{
+  margin: 0 ;
+  width: 40%;
+  max-width: 400px;
+  height: 300px;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+}
+/*employees section*/
+.employee{
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid var(--accent1-color);  
+  border-radius: 10px;       
+  background-color: var(--secondary-color); 
+  width: 90%;                
+  max-width: 1200px;         
+  margin: 0 auto;            
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+  
+.employee h2{
+  font-family: var(--heading-font);
+  font-weight: 800;
+  color: var(--accent2-color);
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.employee .images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.employee .employee-image{
+  text-align: center;
+}
+.employee .employee-image img{
+  width: 200px;
+  height: 150px;
+  border-radius: 0%;
+}
+
+.employee .employee-image figcaption {
+  font-size: 0.9rem;    
+  color:var(--accent2-color);          
+  margin-top: 5px;    
+}
+/*form section*/
+form{
+  width: 100%;
+  max-width: 600px;           
+  margin: 20px auto;            
+  padding: 20px;
+  border: 1px solid #ccc;    
+  border-radius: 10px;         
+  background-color: #f9f9f9;   
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+label {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: inline-block;      
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;                
+  padding: 10px;
+  margin: 8px 0 15px 0;         
+  border: 1px solid #ccc;      
+  border-radius: 5px;         
+  box-sizing: border-box;     
+  font-size: 14px;             
+}
+
+textarea {
+  resize: vertical;           
+  min-height: 120px;            
+}
+
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+
+button[type="submit"] {
+  background-color: #4CAF50;   
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;                
+  box-sizing: border-box;      
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;   
+}
+
+/* Estilo para o checkbox */
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+form p,
+form input[type="radio"],
+form textarea {
+  margin-bottom: 15px;
+}
 
 /* Footer Section */
 footer {
