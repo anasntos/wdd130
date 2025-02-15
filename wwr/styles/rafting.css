@@ -3,7 +3,7 @@
   --primary-color: #2a2b27;
   --secondary-color: #ECE8EF;
   --accent1-color: #0d1321;
-  --accent2-color: #2B259C;
+  --accent2-color: #2b259c; 
   --heading-font: 'Lato', sans-serif;
   --text-font: 'Montserrat', sans-serif;
 }
@@ -53,6 +53,8 @@ main {
   display: flex;
   flex-direction: column;
 }
+/* about us*/
+
 /* Hero Section */
 .hero {
   position: relative;
@@ -161,7 +163,9 @@ section-ad images-ad{
   justify-content: space-around;
   align-items: center;
 }
-/*company section*/
+
+/* contact */
+
 .company{
   display:flex;
   align-items: flex-start;
@@ -214,7 +218,6 @@ section-ad images-ad{
   background-color: var(--secondary-color);
   border-radius: 8px;
 }
-/*employees section*/
 .employee{
   gap: 20px;
   padding: 20px;
@@ -257,15 +260,15 @@ section-ad images-ad{
   color:var(--accent2-color);          
   margin-top: 5px;    
 }
-/*form section*/
+
 form{
   width: 100%;
-  max-width: 600px;           
+  max-width: 600px;             
   margin: 20px auto;            
   padding: 20px;
-  border: 1px solid #ccc;    
+  border: 1px solid #ccc;      
   border-radius: 10px;         
-  background-color: #f9f9f9;   
+  background-color: #f9f9f9;  
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
@@ -273,24 +276,24 @@ label {
   font-family: Arial, sans-serif;
   font-weight: bold;
   margin-bottom: 8px;
-  display: inline-block;      
+  display: inline-block;       
   color: #333;
 }
+
 
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 100%;                
+  width: 100%;                 
   padding: 10px;
   margin: 8px 0 15px 0;         
   border: 1px solid #ccc;      
-  border-radius: 5px;         
-  box-sizing: border-box;     
+  border-radius: 5px;          
+  box-sizing: border-box;      
   font-size: 14px;             
 }
-
 textarea {
-  resize: vertical;           
+  resize: vertical;            
   min-height: 120px;            
 }
 
@@ -301,7 +304,7 @@ input[type="radio"] {
 
 
 button[type="submit"] {
-  background-color: #4CAF50;   
+  background-color: #4CAF50;  
   color: white;
   padding: 10px 20px;
   border: none;
@@ -309,15 +312,14 @@ button[type="submit"] {
   cursor: pointer;
   font-size: 16px;
   margin-top: 10px;
-  width: 100%;                
-  box-sizing: border-box;      
-}
+  width: 100%;                 
+  box-sizing: border-box;  
+}    
 
 button[type="submit"]:hover {
   background-color: #45a049;   
 }
 
-/* Estilo para o checkbox */
 input[type="checkbox"] {
   margin-right: 8px;
 }
@@ -327,6 +329,223 @@ form input[type="radio"],
 form textarea {
   margin-bottom: 15px;
 }
+/* home section*/
+.herohome {
+  position: relative;
+  width: 100%;
+  max-height: 500px; 
+  overflow: hidden;
+}
+
+.hero2 {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; 
+}
+
+.herohome h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.combo{
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+.newsletter {
+  text-align: center;
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletter h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.newsletter p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newsletter input {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.newsletter button {
+  padding: 12px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #ff6600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.newsletter button:hover {
+  background-color: #cc5500;
+}
+
+/* trips */
+.layout{
+  flex-direction: row;
+  gap: 20px;
+}
+.trip-descriptions {
+  text-align: center;
+  width: 50%;
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+.trip {
+  display: flex;
+  align-items: center;
+  background: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trip img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.trip-info {
+  text-align: left;
+}
+
+.trip-info h3 {
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #cc5500;
+} 
+
+.tri{
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px auto;
+}
+.trips {
+  text-align: center;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.contact-cta {
+  text-align: center;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.contact-cta h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.contact-cta p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #ff6600;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #cc5500;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #0077cc;
+  color: white;
+  font-size: 1.2em;
+}
+
+td a {
+  text-decoration: none;
+  color: white;
+  background-color: #ff6600;
+  padding: 6px 12px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+td a:hover {
+  background-color: #cc5500;
+}
+
+
 
 /* Footer Section */
 footer {
@@ -336,7 +555,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items:flex-start;
 }
 
 footer p {
@@ -349,3 +568,4 @@ footer .social-media{
   flex-direction: row;
   justify-content: space-around;
 }
+
