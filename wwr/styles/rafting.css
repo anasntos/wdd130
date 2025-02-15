@@ -358,7 +358,10 @@ form textarea {
   padding: 10px 20px;
   border-radius: 8px;
 }
-
+.combo {
+  flex-direction: row;
+  gap: 20px;
+}
 
 .newsletter {
   text-align: center;
